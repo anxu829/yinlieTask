@@ -1,6 +1,6 @@
 docker stop el_withlab
 docker rm el_withlab
-nvidia-docker run --name detectron_tutorial -it \
+nvidia-docker run --name el_withlab -it \
   -v /home:/home \
   -p 14130:14130 el:withlab /bin/bash -c \
   "cd / &&  \
